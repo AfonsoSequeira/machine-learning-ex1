@@ -10,22 +10,35 @@ code and unzip its contents to the directory where you wish to complete the
 exercise. If needed, use the cd command in Octave/MATLAB to change to
 this directory before starting this exercise.
 You can also find instructions for installing Octave/MATLAB in the “Environment Setup Instructions” of the course website.
-Files included in this exercise
+Files included in this exercise:
+
 ex1.m - Octave/MATLAB script that steps you through the exercise
+
 ex1 multi.m - Octave/MATLAB script for the later parts of the exercise
+
 ex1data1.txt - Dataset for linear regression with one variable
+
 ex1data2.txt - Dataset for linear regression with multiple variables
+
 submit.m - Submission script that sends your solutions to our servers
+
 warmUpExercise.m - Simple example function in Octave/MATLAB
+
 plotData.m - Function to display the dataset
+
 computeCost.m - Function to compute the cost of linear regression
+
 gradientDescent.m - Function to run gradient descent
+
 computeCostMulti.m - Cost function for multiple variables
+
 gradientDescentMulti.m - Gradient descent for multiple variables
+
 featureNormalize.m - Function to normalize features
+
 normalEqn.m - Function to compute the normal equations
 
-1Throughout the exercise, you will be using the scripts ex1.m and ex1 multi.m.
+Throughout the exercise, you will be using the scripts ex1.m and ex1 multi.m.
 These scripts set up the dataset for the problems and make calls to functions
 that you will write. You do not need to modify either of them. You are only
 required to modify functions in other files, by following the instructions in
